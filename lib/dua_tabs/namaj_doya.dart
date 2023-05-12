@@ -15,10 +15,10 @@ class _NamajDoyaState extends State<NamajDoya> {
       color: Colors.white,
       child: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: const EdgeInsets.all(14.0),
           child: Column(
             children: [
-              Text(namajerNiyom,style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold)),
+              Text(namajerNiyom,style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold)),
             ],
           ),
         ),

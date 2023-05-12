@@ -15,13 +15,13 @@ class _RojaDoyaState extends State<RojaDoya> {
       color: Colors.white,
       child: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: const EdgeInsets.all(14.0),
           child: Column(
             children: const [
-              Text("রোজার নিয়ত",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20)),
-              Text(rojarNiyot,style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20)),
-              Text("ইফতারের নিয়ত",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20)),
-              Text(iftarNiyot,style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20)),
+              Text("রোজার নিয়ত",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 25)),
+              Text(rojarNiyot,style: TextStyle(fontWeight: FontWeight.bold,fontSize: 25)),
+              Text("ইফতারের নিয়ত",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 25)),
+              Text(iftarNiyot,style: TextStyle(fontWeight: FontWeight.bold,fontSize: 25)),
 
             ],
           ),
